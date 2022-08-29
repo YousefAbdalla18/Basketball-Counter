@@ -1,0 +1,30 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Basketball Score Counter</h4>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h4 id="home-score">0</h4>
+                <button onclick="homeScoreOne()">+1</button>
+                <button onclick="homeScoreTwo()">+2</button>
+                <button onclick="homeScoreThree()">+3</button>
+                <button onclick="saveHome()">Save</button>
+                <p id="saved-score-home"></p>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <h4 id="guest-score">0</h4>
+                <button onclick="guestScoreOne()">+1</button>
+                <button onclick="guestScoreTwo()">+2</button>
+                <button onclick="guestScoreThree()">+3</button>
+                <button onclick="saveGuest()">Save</button>
+                <p id="saved-score-guest"></p>
+            </div>
+        </div>
+        <p>By Yousef Abdalla - 2022</p>
+        <script src="index.js"></script>
+    </body>
+</html>
