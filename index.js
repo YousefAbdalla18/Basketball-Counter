@@ -29,6 +29,11 @@ function saveHome() {
     
 }
 
+function resetHome() {
+    homeScore = 0
+    homeScoreEl.innerText = homeScore
+}
+
 // -- guest -- 
 
 function guestScoreOne() {
@@ -49,4 +54,9 @@ function guestScoreThree() {
 function saveGuest() {
     savedScoreGuestEl.innerText = "Saved Guest Score: " + guestScore
     
+}
+
+function resetGuest() {
+    guestScore = 0
+    guestScoreEl.innerText = guestScore
 }
